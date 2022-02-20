@@ -3,13 +3,13 @@ import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
 
-import Carbon from './rocket.jpg';
+import Carbon from './code.jpg';
 
-const FirstLeftText = () => <p>What is UNOS?</p>;
+const FirstLeftText = () => <p>What is <strong>UNOS</strong>?</p>;
 
 const FirstRightText = () => (
   <p>
-    Universal Not-Propietary Operations System or UNOS is an artificial intelligence-powered system operator that is designed with expandability, transparency and adaptability in mind.
+    <strong>Universal Not-Propietary Operations System</strong> or <strong>UNOS</strong> is an artificial intelligence-powered system operator that is designed with expandability, transparency and adaptability in mind.
   </p>
   // <p>
   //   This is a callout component. You can edit the contents by updating the{' '}
@@ -26,21 +26,20 @@ const FirstRightText = () => (
   // </p>
 );
 
-const SecondLeftText = () => <p>Callout component</p>;
+const SecondLeftText = () => <p>Want to Contribute?</p>;
 
 const SecondRightText = () => (
   <p>
-    You can also not use these components at all by not providing the callout
-    props to the template or writing your own template.
+    You can contribute to the UNOS Project by heading over to GitHub, cloning the repository and start writing new features!
     <a
       className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
+      href="https://github.com/MostlyWhat/Unos-Assistant">
+      UNOS Assistant GitHub Repository →
     </a>
   </p>
 );
 
-const BannerText = () => <h1>UNOS Assistant System</h1>;
+const BannerText = () => <h1><strong>UNOS Assistant System</strong></h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,

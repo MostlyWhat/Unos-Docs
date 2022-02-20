@@ -8,7 +8,7 @@ const links = [
   },
   {
     title: 'MostlyWhat Website',
-    href: 'https://www.carbondesignsystem.com',
+    href: 'https://www.mostlywhat.cf',
   },
 ];
 

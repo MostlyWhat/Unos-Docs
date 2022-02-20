@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'UNOS Assistant Documentation',
+    title: 'UNOS Assistant',
     description: "Universal Not-Propietary Operations System or UNOS is an artificial intelligence-powered system operator, or in simple terms, it's a home-assistant system similar to Alexa, Google Assistant and Siri. But is designed with expandability, transparency and adaptability in mind.",
     keywords: 'unos,docs,documentation',
   },
@@ -21,12 +21,16 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        mediumAccount: 'carbondesign',
-        repository: {
-          baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
-          subDirectory: '/packages/example',
+        theme: {
+          homepage: 'dark',
+          interior: 'dark',
         },
+        repository: {
+          baseUrl: 'https://github.com/MostlyWhat/Unos-Assistant',
+          branch: 'main',
+        },
+        isSwitcherEnabled: false,
+        titleType: 'prepend',
       },
     },
   ],
